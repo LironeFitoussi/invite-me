@@ -3,9 +3,39 @@
 main {
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: 80vh;
     justify-content: center;
+    position: relative; /* Required for pseudo-elements */
 }
+
+main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://previews.123rf.com/images/imaginarybo/imaginarybo1701/imaginarybo170100011/69541385-exotic-tropical-wedding-marriage-invitation-card-template-with-text-placeholder-bright-greenery.jpg);
+    opacity: 0.3; /* 30% transparency */
+    filter: blur(2px); /* Blur effect */
+    z-index: -1; /* Place the pseudo-element behind content */
+}
+
+
+
+.input-group {
+    width: 90%;
+    align-self: center;
+}
+#GuestLogIn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+}
+
 #guestTableData {
     display: flex;
     flex-direction: column;
