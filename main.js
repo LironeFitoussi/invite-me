@@ -1,4 +1,3 @@
-console.log("test");
 
 let guestNumber;
 
@@ -12,7 +11,7 @@ const imaginaryGuests = [
     { name: "Frank", table: 6, phoneNumber: "678-901-2345" },
     { name: "Grace", table: 7, phoneNumber: "789-012-3456" },
     { name: "Henry", table: 8, phoneNumber: "890-123-4567" },
-    { name: "Ivy", table: 9, phoneNumber: "901-234-5678" },
+    { name: "Franck Fitoussi", table: 5, phoneNumber: "0543099829" },
     { name: "Jack", table: 10, phoneNumber: "012-345-6789" },
     { name: "Karen", table: 11, phoneNumber: "987-654-3210" },
     { name: "Liam", table: 12, phoneNumber: "876-543-2109" },
