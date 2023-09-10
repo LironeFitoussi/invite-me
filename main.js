@@ -8,7 +8,7 @@ const imaginaryGuests = [
     { name: "Bob", table: 2, phoneNumber: "234-567-8901" },
     { name: "Charlie", table: 3, phoneNumber: "345-678-9012" },
     { name: "David", table: 4, phoneNumber: "456-789-0123" },
-    { name: "Deborah Fitoussi", table: 5, phoneNumber: "0543099829" },
+    { name: "Deborah Fitoussi", table: 5, phoneNumber: "0543089829" },
     { name: "Frank", table: 6, phoneNumber: "678-901-2345" },
     { name: "Grace", table: 7, phoneNumber: "789-012-3456" },
     { name: "Henry", table: 8, phoneNumber: "890-123-4567" },
@@ -44,7 +44,7 @@ $(document).ready(function() {
                     <h3>Hello ${guest.name}</h3>
                     <p>You're sitting at table number:</p>
                     <h1>${guest.table}</h1>
-                    <!-- You can add more guest information here -->
+                    <img class="table-img" src="./images/tableOrder${guest.table}.png"> 
                 </div>
             `);
         } else {

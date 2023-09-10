@@ -29,6 +29,11 @@ main::before {
     width: 90%;
     align-self: center;
 }
+
+.table-img {
+    width: 60vw;
+    height: 50vh;
+}
 #GuestLogIn {
     display: flex;
     flex-direction: row;
