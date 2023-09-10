@@ -1,0 +1,24 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+}
+#guestTableData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#guestTableData > h1, h3, p {
+    margin: 0;
+}
+
+#Colors {
+    color: #FFC6AC;
+    color: #FFF6DC;
+    color: #C4C1A4;
+    color: #9E9FA5;
+}
